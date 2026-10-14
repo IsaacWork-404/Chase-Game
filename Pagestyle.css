@@ -1,0 +1,49 @@
+body {
+  background-color: burlywood;
+  margin: 0;
+}
+
+.menu {
+  background-color: orange;
+  width: 300px;
+  height: 180px;
+  position: fixed;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.box {
+  background-color: green;
+  height: calc(100vh - 60px);
+  width: 80%;
+  margin: 30px auto;
+  position: relative;
+}
+
+.player {
+  background-color: brown;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.enemy {
+  background-color: blue;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hidden {
+  display: none;
+}
